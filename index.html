@@ -14,12 +14,12 @@
 <body>
     <!-- NAVIGATION -->
 
-    <nav>
+    <nav class="anim-nav">
         <ul>
-            <li><a href="#" class="item-navigation">Acceuil</a></li>
-            <li><a href="#" class="item-navigation">Matériel</a></li>
-            <li><a href="#" class="item-navigation">Tarifs</a></li>
-            <li><a href="#" class="item-navigation">Contact</a></li>
+            <li><a href="#home" class="item-navigation">Acceuil</a></li>
+            <li><a href="#equipement" class="item-navigation">Matériel</a></li>
+            <li><a href="#tarifs" class="item-navigation">Tarifs</a></li>
+            <li><a href="#contact" class="item-navigation">Contact</a></li>
         </ul>
     </nav>
 
@@ -32,8 +32,8 @@
             <p>Entrainez-vous</p>
             <p>Progressez</p>
             <div class="const-btn-home">
-                <a href="#" class="btn-acceuil b1">Équipement</a>
-                <a href="#" class="btn-acceuil b2">Contact</a>
+                <a href="#equipement" class="btn-acceuil b1">Équipement</a>
+                <a href="#contact" class="btn-acceuil b2">Contact</a>
             </div>
         </div>
         <div class="bloc-right-acceuil">
@@ -51,6 +51,7 @@
             </div>
             <h2>Faire partie d'un groupe</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a nisi quia quasi doloribus temporibus?</p>
+            <img src="/ressources/points.png" alt="points" class="deco-infos">
         </div>
         <div class="carte-info">
             <div class="container-photo-info">
@@ -66,7 +67,149 @@
             <h2>Explorer ses limites</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a nisi quia quasi doloribus temporibus?</p>
         </div>
-
     </section>
+    <!-- Section 2 choix -->
+    <section id="choix">
+        <div class="entrainement-choix">
+            <h3>Salle de sport</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas quia nam?</p>
+            <button class="btn-outline-choix" type="button">Voir les prix</button>
+        </div>
+        <div class="entrainement-choix">
+            <h3>CrossFit</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas quia nam?</p>
+            <button class="btn-outline-choix" type="button">Voir les prix</button>
+        </div>
+    </section>
+    <!-- Section équipement -->
+    <h2 class="titre-equipements">Les équipements</h2>
+    <section id="equipement">
+        <button  type="button" data-index="1" class="btn-modale"></button>
+        <button  type="button" data-index="2" class="btn-modale"></button>
+        <button  type="button" data-index="3" class="btn-modale"></button>
+        <button  type="button" data-index="4" class="btn-modale"></button>
+        <button  type="button" data-index="5" class="btn-modale"></button>
+        <button  type="button" data-index="6" class="btn-modale"></button>
+        <button  type="button" data-index="7" class="btn-modale"></button>
+        <button  type="button" data-index="8" class="btn-modale"></button>
+        <button  type="button" data-index="9" class="btn-modale"></button>
+    </section>
+    
+    <div class="bloc-modale">
+        <div class="bloc-img">
+            <img src="/ressources/img1-equip.jpg" alt="matériel de la salle de sport">
+            <button class="fermeture-modale">X</button>
+        </div>
+    </div>
+
+<!-- Section Parallax -->
+
+    <section class="parallax">
+        <p class="parallax-txt">Courage.</p>
+    </section>
+
+<!-- Section Tarifs -->
+
+<h2 class="titre-tarifs">TARIFS</h2>
+
+<section id="tarifs">
+    <div class="carte-tarif">
+        <h3>BASIQUE</h3>
+        <p class="prix-carte"><span>20</span>/mois</p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            Salle Libre
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            24h/24
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+            Coach
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+            CrossFit
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+            Massage
+        </p>
+    </div>
+    <div class="carte-tarif">
+        <h3>COMPLET</h3>
+        <p class="prix-carte"><span>40</span>/mois</p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            Salle Libre
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            24h/24
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            Coach
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            CrossFit
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+            Massage
+        </p>
+    </div>
+    <div class="carte-tarif">
+        <h3>PRO</h3>
+        <p class="prix-carte"><span>60</span>/mois</p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            Salle Libre
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            24h/24
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            Coach
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            CrossFit
+        </p>
+        <p class="infos-carte">
+            <img src="ressources/check.svg" alt="emoji check vert" class="img-info-carte">
+            Massage
+        </p>
+    </div>
+</section>
+
+<!-- Formulaire -->
+
+<h2 class="titre-contact">Section Contact</h2>
+<section id="contact">
+    <form>
+        <label for="prenom">PRENOM</label>
+        <input type="text" id="prenom">
+
+        <label for="nom">NOM</label>
+        <input type="text" id="nom">
+
+        <label for="txt-area">MESSAGE</label>
+        <textarea id="txt-area"></textarea>
+
+        <button class="form-btn" type="submit">Envoyer</button>
+    </form>
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <p>Tous droits réservés &copy;</p>
+</footer>
+
 </body>
 </html>
